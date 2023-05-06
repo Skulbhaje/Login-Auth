@@ -1,0 +1,13 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": "Admin User",
+      "password": "Test@123",
+      "email": "admin@in.com",
+      "gender": "male",
+      "role": "",
+      "isActive": false
+    }
+  ]
+}
