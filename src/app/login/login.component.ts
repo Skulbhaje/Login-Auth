@@ -15,7 +15,7 @@ export class LoginComponent {
 
   constructor(private formBuilder: FormBuilder, private toastr: ToastrService,
     private authService: AuthService, private router: Router){
-
+      sessionStorage.clear();
   }
 
   loginForm = this.formBuilder.group({
@@ -31,7 +31,7 @@ export class LoginComponent {
       if (this.userData.password == this.loginForm.value.password && this.userData.id == this.loginForm.value.username){
         if(this.userData.isActive){
             sessionStorage.setItem('username', this.userData.id);
-            sessionStorage.setItem('userRole', this.userData.role);
+            sessionStorage.setItem('userrole', this.userData.role);
             this.router.navigate(['']);
         } else {
           this.toastr.warning('This user is inactive, please contact system admin')
