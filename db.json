@@ -6,8 +6,8 @@
       "password": "Test@123",
       "email": "admin@in.com",
       "gender": "male",
-      "role": "",
-      "isActive": false
+      "role": "Admin",
+      "isActive": true
     }
   ]
 }
