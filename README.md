@@ -1,6 +1,9 @@
 # LoginAuth
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.  
+This is role based Authentication angular application using Auth guard and used Angular Material for UI
+
+Run command "npx json-server --watch db.json " to start json server.
 
 ## Development server
 
