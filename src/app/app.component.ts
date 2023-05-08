@@ -1,5 +1,6 @@
 import { Component, DoCheck } from '@angular/core';
 import { Router } from '@angular/router';
+import { AuthService } from './services/auth.service';
 
 @Component({
   selector: 'app-root',
@@ -9,8 +10,9 @@ import { Router } from '@angular/router';
 export class AppComponent implements DoCheck{
   title = 'Login-Auth';
   isMenuDisplay = false;
+  isAdminUser = false;
 
-  constructor(private router: Router){
+  constructor(private router: Router, private authService: AuthService){
 
   }
 
@@ -21,5 +23,13 @@ export class AppComponent implements DoCheck{
     } else {
       this.isMenuDisplay = false;
     }
+
+    if(this.authService.isUserRole() =='Admin'){
+      this.isAdminUser = true;
+    } else{
+      this.isAdminUser = false;
+    }
   }
+
+
 }

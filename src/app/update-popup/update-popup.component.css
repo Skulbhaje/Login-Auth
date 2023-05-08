@@ -1,0 +1,10 @@
+.full-width {
+  width: 100%;
+}
+.button-row {
+  display: block;
+  max-width: 600px;
+}
+.form-button{
+  margin: 10px;
+}
