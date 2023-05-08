@@ -8,9 +8,14 @@ export class AuthService {
 
   constructor(private http: HttpClient) { }
   apiURL = 'http://localhost:3000/user';
+  apiUserRoleURL = 'http://localhost:3000/roles';
 
   getAll(){
-    this.http.get(this.apiURL);
+    return this.http.get(this.apiURL);
+  }
+
+  getAllRoles(){
+    return this.http.get(this.apiUserRoleURL);
   }
 
   getByCode(code:any){

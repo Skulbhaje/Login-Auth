@@ -310,9 +310,9 @@
   <span>Login-Auth</span>
     <div class="spacer"></div>
     <div *ngIf="isMenuDisplay">
-      <a rel="noopener" routerLink=" " title="home">Home</a>
-      <a rel="noopener" routerLink="/user" title="home">User</a>
-      <a rel="noopener" routerLink="/login" title="YouTube">Logout</a>
+      <a  routerLink="" title="home">Home</a>
+      <a *ngIf="isAdminUser"  routerLink="/user" title="home">User</a>
+      <a  routerLink="/login" title="YouTube">Logout</a>
     </div>
   </header>
 
