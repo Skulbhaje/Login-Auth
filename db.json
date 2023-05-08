@@ -1,0 +1,86 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": "Admin User",
+      "password": "Test@123",
+      "email": "admin@in.com",
+      "gender": "male",
+      "role": "Admin",
+      "isActive": true
+    },
+    {
+      "id": "sales",
+      "name": "Sales User",
+      "password": "Test@123",
+      "email": "sales@in.com",
+      "gender": "male",
+      "role": "HR",
+      "isActive": true
+    },
+    {
+      "id": "Human Resource",
+      "name": "HR User",
+      "password": "Test@123",
+      "email": "hr@in.com",
+      "gender": "female",
+      "role": "Staff",
+      "isActive": false
+    },
+    {
+      "id": "technology",
+      "name": "Technology User",
+      "password": "Test@123",
+      "email": "tech@in.com",
+      "gender": "male",
+      "role": "Staff",
+      "isActive": true
+    },
+    {
+      "id": "Enquiry",
+      "name": "Enquiry User",
+      "password": "Test@123",
+      "email": "enquiry@in.com",
+      "gender": "male",
+      "role": "HR",
+      "isActive": true
+    },
+    {
+      "id": "Business",
+      "name": "Business User",
+      "password": "Test@123",
+      "email": "business@in.com",
+      "gender": "male",
+      "role": "HR",
+      "isActive": true
+    },
+    {
+      "id": "Rohit",
+      "name": "Rohit Mehra",
+      "password": "Test@123",
+      "email": "rohit@gmail.com",
+      "gender": "male",
+      "role": "Staff",
+      "isActive": true
+    },
+    {
+      "id": "Sandesh",
+      "name": "Sandesh Mehul",
+      "password": "Test@123",
+      "email": "sandesh@in.com",
+      "gender": "male",
+      "role": "Staff",
+      "isActive": true
+    }
+  ],
+  "roles": [
+    {
+      "code": "Staff",
+      "name": "Staff"
+    },
+    {
+      "code": "HR",
+      "name": "HR"
+    }
+  ]
+}
